@@ -22,11 +22,11 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ## Screenshot
 
 <div align="center">
-<img  src="./images/design-desktop.png" alt="Exemplo da aplicação" width=90%>
+<img  src="./images/design-desktop.png" alt="Exemplo da aplicação" width=1440px>
 </div>
 
 <div align="center">
-<img  src="./images/design-mobile.png" alt="Exemplo da aplicação" width=50%>
+<img  src="./images/design-mobile.png" alt="Exemplo da aplicação" width=375px>
 </div>
 
 ### Links
