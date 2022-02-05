@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #004346;
+}
+
+section .card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 300px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(236, 237, 252, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(236, 237, 252, 0.37);
+  border: 0.1rem solid rgba(255, 255, 255, 0.18);
+  background-color: #058068;
+  font-size: 5rem;
+  border-radius: 2rem;
+}
+
+section .card-container .nft-image {
+  padding: 2rem;
+}
+
+section .card-container .nft-image img {
+  width: 18rem;
+  border-radius: 2rem;
+}
+
+section .card-container .card-info {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  padding: 1rem;
+}
+
+section .card-container .card-info h1 {
+  color: #ffffff;
+}
+
+section .card-container .card-description p {
+  color: #2C3D38;
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+section .card-container .nft-value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .card-container .nft-value p {
+  padding: 1rem;
+  font-size: 1.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .card-container .nft-value p span {
+  padding: .6rem;
+  color: #2C3D38;
+}
+
+section .card-container .nft-value p .value-eth {
+  color: #00fff7;
+  font-weight: bold;
+}
+
+section .card-container .creator-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .card-container .creator-info p {
+  padding: 1rem;
+  font-size: 1.4rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  color: #2C3D38;
+}
+
+section .card-container .creator-info p a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+section .card-container .creator-info .profile {
+  border-top: none;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .card-container .creator-info .profile img {
+  border: 0.2rem solid #2C3D38;
+  border-radius: 50%;
+  width: 10%;
+}
+
+section .card-container .creator-info .profile a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+section .card-container .creator-info .profile a a::visted {
+  -webkit-text-decoration: black;
+          text-decoration: black;
+}
+
+.card-container {
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  transform-box: fill-box;
+}
+
+.card-container:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+/*# sourceMappingURL=main.css.map */

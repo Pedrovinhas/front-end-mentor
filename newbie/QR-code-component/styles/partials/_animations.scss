@@ -1,0 +1,8 @@
+.card-container {
+    transition: .3s ease;
+    transform-origin: center center;
+    transform-box: fill-box;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
