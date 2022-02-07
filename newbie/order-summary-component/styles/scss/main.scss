@@ -1,0 +1,136 @@
+@import '_variables.scss';
+@import '_reset.scss';
+@import '_responsive.scss';
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+    .card {
+        
+        height: 80vh;
+        width: 28vw;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+        border-radius: 2rem 2rem 2rem 2rem;
+        background-color: #fff;
+
+        .card-image {
+            
+            img {
+                width: 100%;
+                border-radius: 2rem 2rem 0 0;
+            }
+        }
+
+        .order-summary {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            height: 40vh;
+            
+
+            h1 {
+                padding: 1.6rem;
+                font-size: 2rem;
+                color: $Dark-blue;
+                font-weight: 900;
+            }
+
+            p {
+                text-align: center;
+                font-size: 1.2rem;
+                color: $Desaturated-blue;
+                font-weight: 500;
+
+                padding: 0 8rem 0 8rem
+            }
+        }
+
+        .subscription {
+            display: flex;
+            align-items: center;
+            width: 70%;
+            height: 30%;
+
+           
+            
+            padding-top: 2rem;
+            justify-content: space-around;
+
+            a {
+                color: $Bright-blue;
+                font-weight: 800;
+            }
+
+            .annual-plan {
+
+                display:flex;
+                justify-content: flex-start;
+                align-items: center;
+                
+
+                img {
+                    max-width: 30%;
+                }
+
+                .span {
+                    display: flex;
+                    flex-direction: column;
+                    font-size: 1.2rem;
+                    padding: 0 0 0 1.2rem;
+
+                    .plan {
+                        color: $Dark-blue;
+                        font-weight: 900;
+                    }
+                    
+                    .price {
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+        .payment {
+            display: flex;
+            flex-direction: column;
+
+            padding: 2rem;
+
+            .cancel-order, .confirm-payment {
+                border: none;
+                background-color: white;
+                color: $Desaturated-blue;
+
+                padding: 1.6rem 8rem 1.6rem 8rem;
+
+                font-size: 1.2rem;
+                font-weight: 800;
+                transition: all .1s ease-in-out;
+
+                &:hover {
+                    background-color: $Bright-blue;
+                    color: $Very-pale-blue;
+
+                    border-radius: 1rem 1rem 1rem 1rem;
+                    box-shadow: 0 5px 5px rgba($Dark-blue, 0.4);
+                    z-index: 2;
+                    transform: scale(1.1);
+                    
+                    cursor: pointer;
+                }
+            }
+
+        }
+    }
+}
+
+
+

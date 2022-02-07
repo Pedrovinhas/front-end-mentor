@@ -1,0 +1,22 @@
+@media screen and (max-width : 768px) {
+    body {
+        background-image: url('/assets/pattern-background-mobile.svg');
+        background-repeat: no-repeat;
+        background-color: $Pale-blue;
+
+        .card {
+            width: 50vw; 
+        }
+
+
+        .containter .card .order-summary p {
+            padding: 0 1.2rem 0 1.2rem;
+        }
+        
+        button {
+            padding: 0rem 1.2rem 1.2rem 1.2rem;
+        }
+    }
+
+   
+}
