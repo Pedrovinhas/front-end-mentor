@@ -1,0 +1,126 @@
+@import '_colors.scss';
+@import '_reset.scss';
+@import '_responsive.scss';
+
+body {
+
+    background-color: $violet;
+    background-image: url('/assets/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+  
+    .container {
+        display:flex;
+        flex-direction: column;
+
+        header {
+            padding: 2.8rem 0 6rem 5rem;
+
+
+            .logo {
+                max-width: 15%;
+            }
+        }
+
+        section {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-around;
+
+            .information {
+                display: flex;
+                flex-direction: column;
+                padding: 1rem 2rem 4rem 5rem;
+
+                h1 {
+                    font-size: 4.2rem;
+                    color: white;
+                   
+                    padding-bottom: 2rem;
+                    
+                }
+
+                p {
+                    color: white;
+                    font-size: 1.8rem;
+                    padding-bottom: 2rem;
+                    font-weight: 300;
+                    width: 75%;
+                    text-align: justify;
+                }
+
+                button {
+                    border-radius: 5rem;
+                    width: 30%;
+                    height: 5%;
+                    padding: 2rem;
+                    color: white;
+                    border: .2rem solid $violet;
+                    transition: all .2s ease-in-out;
+                    cursor: pointer;
+
+                    &:hover {
+                        transform: scale(1.1);
+                        opacity: 0.4;
+                        
+                    }
+
+                    span {
+                        color: $violet;
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 1.6rem;
+
+                    }
+                }
+
+            }
+
+            img {
+                max-width: 40%;
+                padding-left: 5rem;
+            }
+
+        }
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        font-size: 1.6rem;
+        color: $text-color;
+        padding: 3rem 3rem 0 5rem;
+
+
+        p {
+            text-align: left;
+        }
+
+        ul {
+            display:flex;
+            padding-right: 15rem;
+
+
+            li {
+                list-style: none;
+                
+                img {
+                    padding-right: 2rem;
+                    width: 5rem;
+
+                    transition: all .2s ease-in-out;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+
+}
