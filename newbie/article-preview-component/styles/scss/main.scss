@@ -1,0 +1,130 @@
+@import '_base.scss';
+@import '_reset.scss';
+@import '_responsive.scss';
+
+
+.container {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    section {
+
+        max-width: 800px;
+        height: 300px;
+        
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .drawer{
+            width: 40%;
+            height: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                position: relative;
+
+                left: 40px;
+                border-radius: 2rem 0 0 2rem;
+            }
+            
+        }
+
+        .content {
+            width: 60%;
+            height: 100%;
+            background-color: #fff;
+            z-index: 1;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+
+            h2 {
+                font-size: 2.2rem;
+                padding-top: $gap-4;
+                padding-left:$gap-8;
+                padding-right:$gap-8;
+                color: $Very-Dark-Grayish-Blue;
+                font-weight: 700;
+                
+                
+            }
+
+            p { 
+                font-size: 1.4rem;
+                font-weight: 500;
+                color: $Desaturated-Dark-Blue;
+                padding-top: $gap-0;
+                padding-left:$gap-8;
+                padding-right:$gap-8;
+                
+            }
+
+
+            .footer {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .arrow {
+                    height: 40px;
+                    width: 40px;
+                    border-radius: 50%;
+                    background-color:$bg-color;
+                    
+                    img {
+                        height: 50%;
+                        width: 50%;
+                        position: relative;
+                        top: 8px;
+                        left: 10px;
+                        cursor: pointer;
+    
+                        
+                    }
+
+                }
+                
+
+                .credits {
+                    display: flex;
+                    align-items: center;
+                    
+                    ul {
+                        list-style-type: none;
+                        padding-left:$gap-4;
+                        padding-right:$gap-8;
+
+                        li {
+                            font-size: 1.2rem;
+                            color: $Very-Dark-Grayish-Blue;
+                            font-weight: 700;
+                            
+                            span {
+                                color: $Desaturated-Dark-Blue;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                    
+                    img {
+                        width: 40px;
+                        
+                        border-radius: 50%;
+                    }
+                }
+            }
+
+        }
+
+    }
+}
+
