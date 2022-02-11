@@ -149,4 +149,48 @@ body {
   width: 40px;
   border-radius: 50%;
 }
+
+.container section .desktop-share {
+  position: absolute;
+  background-color: #48556a;
+  width: 180px;
+  height: 40px;
+  display: none;
+  border-radius: 1rem;
+  z-index: 4;
+}
+
+.container section .desktop-share ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container section .desktop-share ul h2 {
+  letter-spacing: 0.4rem;
+  color: #9eafc2;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-right: 0.8rem;
+}
+
+.container section .desktop-share ul li {
+  padding: 0.4rem;
+}
+
+.container section .active {
+  display: block;
+  right: 270px;
+  top: 350px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
 /*# sourceMappingURL=main.css.map */
