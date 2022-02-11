@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font;
+    font-size: 62.5%;
+}
+
+body {
+   background-image: url('/assets/bg-pattern-desktop.svg');
+   background-size: 100%;
+   background-repeat: no-repeat;
+}

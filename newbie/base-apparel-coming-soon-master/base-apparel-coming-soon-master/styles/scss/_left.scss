@@ -1,0 +1,134 @@
+.left {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin: $gap-8;
+    margin-top: $gap-3;
+
+    .align {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+     
+        height: 100%;
+    
+        header {
+            padding: $gap-3;
+            
+
+            img {
+                width: 100px;
+                
+            }
+        }
+        
+    .box-text {
+        width: 450px;
+        
+
+        h1 {
+            font-size: 5rem;
+            color: $Dark-Grayish-Red;
+            font-weight: 600;
+            text-transform: uppercase;
+            padding: $gap-3;
+            letter-spacing: 1rem;
+            span {
+                font-weight: 300;
+                font-size: 5rem;
+                color: $Desaturated-Red;
+            }
+        }
+
+        p {
+            padding: $gap-3;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: $Desaturated-Red;
+            line-height: 1.8rem;
+            width: 430px;
+            letter-spacing: .1rem;
+
+        }
+
+        .email {
+            padding: $gap-3;
+            display:flex;
+            
+            input {
+                width: 470px;
+                border: none;
+                border-radius: 2rem 2rem 2rem 2rem;
+                padding-left: $gap-6;
+                padding-right: $gap-8;
+                border: 0.1rem solid $Desaturated-Red;
+                opacity: .5;
+
+                font-size: 1.6rem;
+                
+                &:focus {
+                   outline-color: $Soft-Red;
+                }
+
+                &::placeholder {
+                    color: $Desaturated-Red;
+                    
+                }
+            }
+
+            button {
+                padding: $gap-3;
+                margin-left: $gap-3;
+                width: 100px;
+            
+                border-radius: 2rem;
+                border: none;
+                background-image: $button-2;
+                position: relative;
+                right: 45px;
+                cursor: pointer;
+                transition: all .2s ease-in-out;
+                
+
+                &:hover {
+                    transform: scale(1.1);
+                    
+                    z-index: 5;
+                }
+                
+            }
+
+        
+
+        
+        }
+
+        .error {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 300px;
+
+            display: none;
+
+            p {
+                margin-top: -$gap-3;
+                color: $Soft-Red;
+                 font-size: 1.2rem;
+                 font-weight: 700;
+                 letter-spacing: 0;
+            }
+            
+
+            img {
+                position: relative;
+                bottom: 50px;
+            }
+        }
+    }
+
+  }
+
+}
