@@ -1,0 +1,77 @@
+.card {
+    
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+
+    section {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: $Dark-Grayish-Blue;
+
+        padding: 2rem;
+
+        border-radius: 1.2rem 1.2rem 1.2rem 1.2rem;
+
+        .advice-box {
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h2 {
+                color: $Neon-Green;
+                font-weight: 800;
+                font-size: 1.2rem;
+                text-transform: uppercase;
+                letter-spacing: .4rem;
+
+                margin-top: $gap-4;
+            }
+
+            h1 {
+                font-size: 2.4rem;
+                color: $Light-Cyan;
+                font-weight: 800;
+                margin-top: $gap-4;
+                width: 90%;
+                text-align: center;
+                
+            }
+
+            .divider {
+                margin-top: $gap-4;
+
+                img {
+                    opacity: 0.5;
+                }
+            }
+
+           
+        }
+
+        .dice {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            background: $Neon-Green;
+            width:55px;
+             border-radius: 50%;
+            height: 55px;
+
+            position: relative;
+            top: 45px;
+         
+        }
+    }
+
+}

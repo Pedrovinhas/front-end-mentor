@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Manrope:wght@400;800&family=Open+Sans&family=Poppins:wght@400;600&family=Red+Hat+Display:wght@400;500;900&family=Roboto:wght@100;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2.8rem;
+  background: #202733;
+}
+
+.card {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card section {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #323a49;
+  padding: 2rem;
+  border-radius: 1.2rem 1.2rem 1.2rem 1.2rem;
+}
+
+.card section .advice-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card section .advice-box h2 {
+  color: #52ffa8;
+  font-weight: 800;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .4rem;
+  margin-top: 1.6rem;
+}
+
+.card section .advice-box h1 {
+  font-size: 2.4rem;
+  color: #cee3e9;
+  font-weight: 800;
+  margin-top: 1.6rem;
+  width: 90%;
+  text-align: center;
+}
+
+.card section .advice-box .divider {
+  margin-top: 1.6rem;
+}
+
+.card section .advice-box .divider img {
+  opacity: 0.5;
+}
+
+.card section .dice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #52ffa8;
+  width: 55px;
+  border-radius: 50%;
+  height: 55px;
+  position: relative;
+  top: 45px;
+}
+/*# sourceMappingURL=main.css.map */
