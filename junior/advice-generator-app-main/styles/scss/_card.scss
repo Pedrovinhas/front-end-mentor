@@ -55,8 +55,24 @@
                 }
             }
 
+            .fade {
+                animation: fadein 1s;
+    
+            }
+    
+            @keyframes fadein {
+                from {
+                    opacity: 0;
+                }
+                to {
+                   opacity: 1;
+                }
+              }
+
            
         }
+
+       
 
         .dice {
             display: flex;
@@ -65,13 +81,27 @@
             
             background: $Neon-Green;
             width:55px;
-             border-radius: 50%;
+            border-radius: 50%;
             height: 55px;
 
             position: relative;
             top: 45px;
-         
+            
+            cursor: pointer;
+            transition: all .2s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            .active {
+                transform: rotateZ(360deg);
+                transition: all .3s ease-in-out;
+                backdrop-filter: blur(10px);
+            }
         }
     }
 
 }
+
+
