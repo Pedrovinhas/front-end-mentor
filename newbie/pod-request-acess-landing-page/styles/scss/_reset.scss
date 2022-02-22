@@ -1,0 +1,18 @@
+*, h1, button {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $font;
+}
+
+body {
+    background-color: $bg-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+}
+
+html {
+    font-size: 62.5%;
+}
