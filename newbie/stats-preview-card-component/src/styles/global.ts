@@ -14,12 +14,20 @@ export default createGlobalStyle`
 
     html {
         font-size: 62.5%;
+
+        @media only screen and (max-width: 924px) {
+            font-size: 60%;
+        }
+
+        @media only screen and (max-width: 378px) {
+            font-size: 50%;
+        }
     }
 
     body {
         font-size: 1.6rem;
         color: white;
-        font-family: 'Open Sans', sans-serif; 
+        font-family: 'Inter', sans-serif; 
        
         display: flex;
         align-items: center;

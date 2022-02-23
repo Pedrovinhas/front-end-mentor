@@ -12,6 +12,7 @@ declare module 'styled-components' {
             mainBg: string;
 
             mainParagraph: string;
+            statHeading: string;
         }
     }
 }
