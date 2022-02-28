@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="styles/css/main.css">
 </head>
 <body>
@@ -23,26 +24,44 @@
       <aside class="form-container">
         <p class="trial">   <span class="bold">Try it free 7 days</span> then $20/mo. thereafter  </p>
         <form action="#">
-          <input placeholder="First Name" type="text" id=""name>
-          <input placeholder="Last Name" type="text" id=""name>
-          <input placeholder="Email Adress" type="text" id=""name>
-          <input placeholder="Password" type="text" id=""name>
+          <div class="name">
+            <input placeholder="First Name" type="text" id="name"> 
+          
+              <i class="fa-solid fa-circle-exclamation"></i>
+              <span class="wrong-name"> First name can not be empty </span>
+          
+          </div>
+          <div class="name">
+            <input placeholder="Last Name" type="text" id="last-name">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <span class="wrong-name"> Last name can not be empty </span>
+          </div>
+          
+          <div class="name">
+            <input placeholder="Email Adress" type="text" id="email">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <span class="wrong-name"> Email not valid </span>
+          
+          </div>
+          <div class="name">
+            <input placeholder="Password" type="password" id="password">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <span class="wrong-name"> Password can not be empty </span>
+          </div>
        
-          <input placeholder="" class="submit" type="submit" value=" Claim your free trial "> 
+          <input placeholder="" class="submit" type="submit" id="submit" value=" Claim your free trial "> 
           <p class="agreement-term">   By clicking the button, you are agreeing to our <span>Terms and Services</span> </p>
         </form>
+        <div class="popup">
+          <p> Claim sucessfully </p>
+        </div>
       </aside>
     </section>
+    
+  
   </div>
 
-  
-
-
  
-   
-
-
-  
  <!-- <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
@@ -50,5 +69,6 @@
     </p>
   </footer>
 -->
+<script src="js/validation.js"></script>
 </body>
 </html>
