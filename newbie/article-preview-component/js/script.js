@@ -5,4 +5,3 @@ popUp.addEventListener("click", () => {
     console.log("Click")
     modal.classList.add("active");
 })
-

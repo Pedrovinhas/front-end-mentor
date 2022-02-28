@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+*, h1, button {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #ff7a7a;
+  font-size: 1.6rem;
+  background-image: url("/images/bg-intro-desktop.png");
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container .card {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-content {
+  width: 50%;
+}
+
+.main-content h1 {
+  color: #fff;
+  font-size: 4.8rem;
+}
+
+.main-content p {
+  margin-top: 1.2rem;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 2.4rem;
+  height: 100%;
+  width: 50%;
+}
+
+aside .trial {
+  width: 80%;
+  padding: 1.2rem;
+  text-align: center;
+  border-radius: 1.2rem;
+  margin-bottom: 1.2rem;
+  background: #6055a5;
+  font-size: 1.2rem;
+  color: #fff;
+  -webkit-box-shadow: 0 0.4rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.4rem rgba(0, 0, 0, 0.2);
+}
+
+aside .trial span {
+  font-weight: 600;
+}
+
+aside form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  height: 100%;
+  padding: 2.8rem;
+  background: #fff;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 0 0.6rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.6rem rgba(0, 0, 0, 0.2);
+  border-radius: 1.2rem;
+}
+
+aside form input {
+  padding: 1.2rem;
+  border: 0.1rem solid #b9b6d3;
+  border-radius: 0.8rem;
+  font-weight: 500;
+}
+
+aside form input:focus {
+  outline: none;
+  border: #b9b6d3 0.2rem solid;
+  color: #3e3c49;
+  background: #fff;
+}
+
+aside form .submit {
+  background-color: #38cc8c;
+  border-radius: .8rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+aside form .agreement-term {
+  font-size: 1rem;
+  text-align: center;
+}
+
+aside form .agreement-term span {
+  color: #ff7a7a;
+  font-weight: 600;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,16 @@
+*, h1, button {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $font;
+}
+
+body {
+    background-color: $red;
+    font-size: 1.6rem;
+    background-image: url('/images/bg-intro-desktop.png');
+}
+
+html {
+    font-size: 62.5%;
+}

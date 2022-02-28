@@ -5,7 +5,6 @@ function emailValidation() {
     const regexp = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 
     
-
     regexp.match(email.value) ? validated.addClass('error') : error.addClass ('.error');
 }
 

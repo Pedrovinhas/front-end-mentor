@@ -1,196 +1,196 @@
 * {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: "Manrope", sans-serif;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  background: #ecf2f8;
-}
-
-.container {
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.container section {
-  max-width: 800px;
-  height: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.container section .drawer {
-  width: 40%;
-  height: 100%;
-}
-
-.container section .drawer img {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  left: 40px;
-  border-radius: 2rem 0 0 2rem;
-}
-
-.container section .content {
-  width: 60%;
-  height: 100%;
-  background-color: #fff;
-  z-index: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.container section .content h2 {
-  font-size: 2.2rem;
-  padding-top: 1.6rem;
-  padding-left: 4.8rem;
-  padding-right: 4.8rem;
-  color: #48556a;
-  font-weight: 700;
-}
-
-.container section .content p {
-  font-size: 1.4rem;
-  font-weight: 500;
-  color: #6d7f97;
-  padding-top: 0rem;
-  padding-left: 4.8rem;
-  padding-right: 4.8rem;
-}
-
-.container section .content .footer {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.container section .content .footer .arrow {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  background-color: #ecf2f8;
-}
-
-.container section .content .footer .arrow img {
-  height: 50%;
-  width: 50%;
-  position: relative;
-  top: 8px;
-  left: 10px;
-  cursor: pointer;
-}
-
-.container section .content .footer .credits {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.container section .content .footer .credits ul {
-  list-style-type: none;
-  padding-left: 1.6rem;
-  padding-right: 4.8rem;
-}
-
-.container section .content .footer .credits ul li {
-  font-size: 1.2rem;
-  color: #48556a;
-  font-weight: 700;
-}
-
-.container section .content .footer .credits ul li span {
-  color: #6d7f97;
-  font-weight: 500;
-}
-
-.container section .content .footer .credits img {
-  width: 40px;
-  border-radius: 50%;
-}
-
-.container section .desktop-share {
-  position: absolute;
-  background-color: #48556a;
-  width: 180px;
-  height: 40px;
-  display: none;
-  border-radius: 1rem;
-  z-index: 4;
-}
-
-.container section .desktop-share ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  height: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.container section .desktop-share ul h2 {
-  letter-spacing: 0.4rem;
-  color: #9eafc2;
-  font-weight: 700;
-  font-size: 1.2rem;
-  margin-right: 0.8rem;
-}
-
-.container section .desktop-share ul li {
-  padding: 0.4rem;
-}
-
-.container section .active {
-  display: block;
-  right: 270px;
-  top: 350px;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-/*# sourceMappingURL=main.css.map */
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    background: #ecf2f8;
+  }
+  
+  .container {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .container section {
+    max-width: 800px;
+    height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .container section .drawer {
+    width: 40%;
+    height: 100%;
+  }
+  
+  .container section .drawer img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 40px;
+    border-radius: 2rem 0 0 2rem;
+  }
+  
+  .container section .content {
+    width: 60%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  
+  .container section .content h2 {
+    font-size: 2.2rem;
+    padding-top: 1.6rem;
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
+    color: #48556a;
+    font-weight: 700;
+  }
+  
+  .container section .content p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #6d7f97;
+    padding-top: 0rem;
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
+  }
+  
+  .container section .content .footer {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .container section .content .footer .arrow {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #ecf2f8;
+  }
+  
+  .container section .content .footer .arrow img {
+    height: 50%;
+    width: 50%;
+    position: relative;
+    top: 8px;
+    left: 10px;
+    cursor: pointer;
+  }
+  
+  .container section .content .footer .credits {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .container section .content .footer .credits ul {
+    list-style-type: none;
+    padding-left: 1.6rem;
+    padding-right: 4.8rem;
+  }
+  
+  .container section .content .footer .credits ul li {
+    font-size: 1.2rem;
+    color: #48556a;
+    font-weight: 700;
+  }
+  
+  .container section .content .footer .credits ul li span {
+    color: #6d7f97;
+    font-weight: 500;
+  }
+  
+  .container section .content .footer .credits img {
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .container section .desktop-share {
+    position: absolute;
+    background-color: #48556a;
+    width: 180px;
+    height: 40px;
+    display: none;
+    border-radius: 1rem;
+    z-index: 4;
+  }
+  
+  .container section .desktop-share ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    height: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .container section .desktop-share ul h2 {
+    letter-spacing: 0.4rem;
+    color: #9eafc2;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-right: 0.8rem;
+  }
+  
+  .container section .desktop-share ul li {
+    padding: 0.4rem;
+  }
+  
+  .container section .active {
+    display: block;
+    right: 270px;
+    top: 350px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  /*# sourceMappingURL=main.css.map */

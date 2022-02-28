@@ -1,6 +1,8 @@
 # Frontend Mentor - Order summary card solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+<div >
+<img  src="./design/desktop-preview.jpg" alt="Exemplo da aplicação" width="990px">
+</div>
 
 ## Table of contents
 
@@ -16,56 +18,36 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Font](#font)
 - [Author](#author)
 
-## Overview
+## Welcome! 👋
 
-### The challenge
+### The third challenge
 
-Users should be able to:
-
-- See hover states for interactive elements
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ### Screenshot
 
-![Design Foto](./design/desktop-design.jpg)
+
 ![Design Foto](./design/mobile-design.jpg)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-
-### Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-### Colors
-
-- Pale blue: hsl(225, 100%, 94%)
-- Bright blue: hsl(245, 75%, 52%)
-- Very pale blue: hsl(225, 100%, 98%)
-- Desaturated blue: hsl(224, 23%, 55%)
-- Dark blue: hsl(223, 47%, 23%)
-
-### Body Copy
-
-- Font size (paragraph): 16px
-
-### Font
-
-- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
-- Weights: 500, 700, 900
-
-
+- [x]  Semantic HTML5 markup
+- [x]  CSS custom properties
+- [x]  Flex-box
+- [x]  SCSS
+- [x]  8px grid
+### What I learned
+- Centralize card component
+- Architectural Design with SCSS files
+- Use correct HTML tags
+- Hover effect
+- Use SCSS variables for colors, spacing etc.
 ## Author
+---
+> Feito por Pedro Henrique Vinhas 🪐
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+> Frontend Mentor - [@pedrovinhas](https://www.frontendmentor.io/profile/pedrovinhas)
+
+
