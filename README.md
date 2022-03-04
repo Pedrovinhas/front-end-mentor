@@ -33,8 +33,9 @@ Projects will be developed using the following technologies:
 - [Javascript](https://www.javascripttutorial.net/javascript-dom/)
 - [SCSS](https://sass-lang.com/guide)
 
-### Advanced
+### Intermediate
 - [ReactJS](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 - [Styled Components](https://styled-components.com/)
 
 
@@ -45,8 +46,8 @@ Projects will be developed using the following technologies:
 - [X]  See hover states and all animations for interactive elements
 - [X]  Apply 8px grid
 - [X]  Use SCSS partials files to maintain the projects structures
-- [X]  Refactor Javascript in future
-- [X]  Change tech in projects to ReactJS and Styled Components
+- [ ]  Refactor Javascript in future
+- [ ]  Change tech in projects to ReactJS, Typescript and Styled Components
 
 ### Help!
 
