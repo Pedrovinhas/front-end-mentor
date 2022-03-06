@@ -1,0 +1,15 @@
+
+@mixin ResponsiveMobile {
+   
+    @media only screen and (max-width: $mobile){
+   
+        .container {
+            width: 1028px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+           
+        }
+    
+    }
+}

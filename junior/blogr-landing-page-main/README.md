@@ -41,6 +41,7 @@ Users should be able to:
 - [X] Mobile view
 - [X] Reponsive for all devices
 - [ ] Dropdown menu with Javascript
+- [ ] Use ```forEach``` and ```addEventListener``` to menu popup.
 
 ### Improvments
 - [X] Refactor SCSS files
@@ -48,7 +49,6 @@ Users should be able to:
 - [X] Use BEM model in next landing page
 - [X] Create a wrapper class for all ```sections```
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+---
+## Author
 
