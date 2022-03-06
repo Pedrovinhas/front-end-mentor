@@ -29,10 +29,24 @@ Users should be able to:
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## My process
+## 🧠 My process
 
 
 ### What I learned
+- [X] Build a full landing page
+- [X] Use SCSS partials for better organization and maintance
+
+### Pending
+- [X] Desktop view
+- [X] Mobile view
+- [X] Reponsive for all devices
+- [ ] Dropdown menu with Javascript
+
+### Improvments
+- [X] Refactor SCSS files
+- [X] Create more mixins for the repetitive sections components
+- [X] Use BEM model in next landing page
+- [X] Create a wrapper class for all ```sections```
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 

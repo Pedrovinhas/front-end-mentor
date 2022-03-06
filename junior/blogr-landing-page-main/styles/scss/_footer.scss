@@ -1,0 +1,44 @@
+.footer-container {
+    background-color: $footer-bg;
+    border-radius: 0 4.8rem 0 0;
+    height: 60vh;
+
+    display: grid;
+    place-items: center;
+   
+    
+    .footer {
+        display: flex;
+        height: 70%;
+        width: 80%;
+
+        .logo-box {
+            width: 30%;
+        }
+
+        .footer-items {
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+
+            ul {
+                list-style: none;
+
+                p {
+                    color: $white;
+                    font-weight: 600;
+
+                    margin-bottom: 2.4rem;
+                }
+
+                li {
+                    margin-bottom: 1.2rem;
+                    color: $footer-text;
+                    font-weight: 600;
+                    font-size: 1.4rem;
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}

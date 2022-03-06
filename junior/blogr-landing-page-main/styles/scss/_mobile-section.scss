@@ -1,0 +1,58 @@
+.mobile-container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+
+  
+
+  margin-top: 10rem;
+
+  .wrapper {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 0 7rem;
+
+    background-image: url('../../images/bg-pattern-circles.svg');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: bottom left;
+
+    background-color: $bg-dark-desaturated-blue;
+
+    .mobile {
+      width: 80%;
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      
+      
+      .mobile-image {
+        width: 50%;
+        img {
+          position: relative;
+          z-index: 2;
+          width: 90%;
+        }
+      }
+
+      .mobile-informations {
+              width: 50%;
+
+              .mobile-text {
+                      h2 {
+                              font-size: 3.2rem;
+                              color: $white;
+                              margin-bottom: 1.6rem;
+                      }
+
+                      p {
+                              color: $white;
+                              opacity: .7;
+                              font-size: 1.6rem;
+                      }
+              }
+      }
+    }
+  }
+}

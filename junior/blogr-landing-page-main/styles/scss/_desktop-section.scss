@@ -1,0 +1,34 @@
+.information-notebook {
+       
+        display: grid;
+        place-items: center;
+     
+
+        .notebook {
+            width: 80%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        
+       
+
+            .notebook-image {
+                
+                width: 50%;
+                position: relative;
+                right: 380px;
+                
+                img {
+                    max-width: 850px;
+                    
+                }
+            }
+
+            .notebook-information-paragraph {
+                width: 50%;
+
+                @include informationSections;
+            }
+          
+        }
+}

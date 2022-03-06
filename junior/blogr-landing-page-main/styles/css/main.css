@@ -24,6 +24,7 @@ body {
   background-repeat: no-repeat;
   background-size: 130%;
   background-position: center;
+  height: 70vh;
   border-radius: 0 0 3.2rem 3.2rem;
 }
 
@@ -140,7 +141,7 @@ header nav .header-right button:hover {
   color: #ff525d;
 }
 
-section {
+.intro-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -155,15 +156,15 @@ section {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  height: 100%;
+  height: 65vh;
 }
 
-section h1 {
+.intro-section h1 {
   font-size: 4.2rem;
   color: white;
 }
 
-section h2 {
+.intro-section h2 {
   font-size: 1.4rem;
   margin-top: 1.2rem;
   font-weight: 300;
@@ -171,11 +172,11 @@ section h2 {
   opacity: .7;
 }
 
-section div {
+.intro-section div {
   margin-top: 3.2rem;
 }
 
-section div button {
+.intro-section div button {
   padding-top: 1.2rem;
   padding-bottom: 1.2rem;
   padding-left: 2.8rem;
@@ -190,8 +191,251 @@ section div button {
   border-radius: 2.4rem;
 }
 
-section div button:hover {
+.intro-section div button:hover {
   background: white;
   color: #ff525d;
+}
+
+.information-container {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.information-container .information {
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.information-container .information .section-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 50%;
+  width: 100%;
+}
+
+.information-container .information .section-image .information-paragraph {
+  width: 50%;
+}
+
+.information-container .information .section-image .information-paragraph p {
+  font-size: 1.6rem;
+  color: #4b5862;
+  margin-bottom: 3.6rem;
+  font-weight: 600;
+  opacity: .7;
+}
+
+.information-container .information .section-image .information-paragraph h3 {
+  color: #1f3f5b;
+  margin-bottom: 2rem;
+  font-size: 2.8rem;
+}
+
+.information-container .information .section-image .desktop-image {
+  width: 60%;
+  position: relative;
+  left: 135px;
+  overflow: hidden;
+}
+
+.information-container .information .section-image .desktop-image img {
+  max-width: 850px;
+  overflow: hidden;
+}
+
+.information-container .information .information-text h2 {
+  font-size: 3.2rem;
+  color: #1f3f5b;
+}
+
+.mobile-container {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin-top: 10rem;
+}
+
+.mobile-container .wrapper {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border-radius: 0 7rem;
+  background-image: url("../../images/bg-pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: bottom left;
+  background-color: #3f4164;
+}
+
+.mobile-container .wrapper .mobile {
+  width: 80%;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mobile-container .wrapper .mobile .mobile-image {
+  width: 50%;
+}
+
+.mobile-container .wrapper .mobile .mobile-image img {
+  position: relative;
+  z-index: 2;
+  width: 90%;
+}
+
+.mobile-container .wrapper .mobile .mobile-informations {
+  width: 50%;
+}
+
+.mobile-container .wrapper .mobile .mobile-informations .mobile-text h2 {
+  font-size: 3.2rem;
+  color: white;
+  margin-bottom: 1.6rem;
+}
+
+.mobile-container .wrapper .mobile .mobile-informations .mobile-text p {
+  color: white;
+  opacity: .7;
+  font-size: 1.6rem;
+}
+
+.information-notebook {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.information-notebook .notebook {
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.information-notebook .notebook .notebook-image {
+  width: 50%;
+  position: relative;
+  right: 380px;
+}
+
+.information-notebook .notebook .notebook-image img {
+  max-width: 850px;
+}
+
+.information-notebook .notebook .notebook-information-paragraph {
+  width: 50%;
+}
+
+.information-notebook .notebook .notebook-information-paragraph p {
+  font-size: 1.6rem;
+  color: #4b5862;
+  margin-bottom: 3.6rem;
+  font-weight: 600;
+  opacity: .7;
+}
+
+.information-notebook .notebook .notebook-information-paragraph h3 {
+  color: #1f3f5b;
+  margin-bottom: 2rem;
+  font-size: 2.8rem;
+}
+
+.footer-container {
+  background-color: #25252d;
+  border-radius: 0 4.8rem 0 0;
+  height: 60vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.footer-container .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70%;
+  width: 80%;
+}
+
+.footer-container .footer .logo-box {
+  width: 30%;
+}
+
+.footer-container .footer .footer-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+}
+
+.footer-container .footer .footer-items ul {
+  list-style: none;
+}
+
+.footer-container .footer .footer-items ul p {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
+.footer-container .footer .footer-items ul li {
+  margin-bottom: 1.2rem;
+  color: #c8c8cb;
+  font-weight: 600;
+  font-size: 1.4rem;
+  opacity: 0.7;
+}
+
+.wrapper-att {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: #ff3d54;
+  height: 5vh;
+}
+
+.wrapper-att .attribution {
+  color: white;
+}
+
+.wrapper-att .attribution a {
+  text-decoration: none;
+  color: #2c2d3f;
+  font-weight: 600;
 }
 /*# sourceMappingURL=main.css.map */

@@ -18,3 +18,21 @@
         color: $red;    
     }
 }
+
+@mixin informationSections {
+
+    p {
+        font-size: 1.6rem;
+        color: $body-cop;
+        margin-bottom: 3.6rem;
+        font-weight: 600;
+        opacity: .7;
+    }
+
+    h3 {
+     color: $heading;
+     margin-bottom: 2rem;
+    font-size: 2.8rem;
+    }
+    
+}
