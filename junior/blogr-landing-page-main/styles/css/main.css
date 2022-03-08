@@ -93,6 +93,8 @@ header nav .header-left {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 50%;
 }
 
@@ -104,7 +106,52 @@ header nav .header-left ul {
   margin-left: 4rem;
 }
 
-header nav .header-left ul li {
+header nav .header-left ul .popup-list {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 120px;
+  border-radius: 1.2rem;
+  position: relative;
+  top: 90px;
+  right: 130px;
+  background: white;
+  -webkit-transform: 100s;
+          transform: 100s;
+}
+
+header nav .header-left ul .popup-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: .8rem;
+}
+
+header nav .header-left ul .popup-list li span {
+  color: black;
+  font-size: 1.2rem;
+  -webkit-transition: ease-in 2s;
+  transition: ease-in 2s;
+}
+
+header nav .header-left ul .popup-list li span:hover {
+  color: #1f3f5b;
+  font-weight: 700;
+}
+
+header nav .header-left ul .menu-list {
   margin-right: 1.6rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -114,12 +161,16 @@ header nav .header-left ul li {
           align-items: center;
 }
 
-header nav .header-left ul li span {
+header nav .header-left ul .menu-list span {
   margin-right: 0.8rem;
   font-weight: 300;
   font-size: 1.4rem;
   color: white;
   font-family: "Ubuntu", sans-serif;
+}
+
+header nav .header-left ul .menu-list img {
+  cursor: pointer;
 }
 
 header nav .header-right {
