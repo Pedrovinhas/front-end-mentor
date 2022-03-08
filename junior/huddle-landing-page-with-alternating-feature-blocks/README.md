@@ -1,0 +1,4 @@
+- [X] Tipagem do Styled Component
+- [X] Global Styles
+- [X] Themes
+- [X] Tipagem da lista dos objetos vindo do ```content.ts```
