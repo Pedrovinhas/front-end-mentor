@@ -1,113 +1,123 @@
-@import '../_mixins.scss';
+@import "../_mixins.scss";
 
 header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 10vh;
+
+  nav {
     display: flex;
-    align-items: center;
-    justify-content: center;
-
     width: 100%;
-    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
 
- 
+    .header-left {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
 
-    nav {
+      width: 50%;
+
+      .nav-list {
         display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: space-between;
+        list-style: none;
+        margin-left: 4rem;
 
-        .header-left {
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            
-            width: 50%;
-            
-            ul {
-                display: flex;
-                list-style: none;
-                margin-left: 4rem;
+        li {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
 
+          padding: 0.8rem;
 
-                    .popup-list {
-                        display: none;
-                        flex-direction: column;
-                        align-items: flex-start;
-                        width: 120px;
-                        
-                        border-radius: 1.2rem;
-                        
+          .popup-list {
+            display: none;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 120px;
 
-                        position: relative;
-                        top: 90px;
-                        right: 130px;
-                        background: $white;
+            border-radius: 1.2rem;
 
-                        
-                     
+            position: relative;
+            top: 90px;
+            right: 130px;
+            background: $white;
 
-                        li {
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            width: 100%;
-                          
-                            padding: .8rem;
-                            
+            span {
+              color: black;
+              font-size: 1.2rem;
+              transition: ease-in 2s;
 
-                            span {
-                                color: black;
-                                font-size: 1.2rem;
-                                transition: ease-in 2s;
-
-                                &:hover {
-                                    color: $heading;
-                                    font-weight: 700;
-                                }
-                            }
-                            
-                        }
-                        
-                    }
-                
-
-                .menu-list {
-                    margin-right: 1.6rem;
-                    display: flex;
-                    align-items: center;
-                 
-                    span {
-                        margin-right: 0.8rem;
-                        font-weight: 300;
-                        font-size: 1.4rem;
-                        color: $white;
-                        font-family: $font-ubuntu
-                    }
-
-                    img {
-                        cursor: pointer;
-                    }
-                }
+              &:hover {
+                color: $heading;
+                font-weight: 700;
+              }
             }
-            
+          }
+
+          .active {
+            display: flex;
+            animation: fadeIn 2s;
+          }
         }
 
-        .header-right {
-            width: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
+        .menu-list {
+          margin-right: 1.6rem;
+          display: flex;
+          align-items: center;
 
-            button {
-                width: 20%;
-                margin-left: 1.6rem;
-               
-                @include mainButton;
+          span {
+            margin-right: 0.8rem;
+            font-weight: 300;
+            font-size: 1.4rem;
+            color: $white;
+            font-family: $font-ubuntu;
+          }
 
-               
-            }
-
-
+          img {
+            cursor: pointer;
+          }
         }
+      }
     }
+
+    .header-right {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      .login {
+        @include whiteButton;
+      }
+
+      button {
+        width: 20%;
+        margin-left: 1.6rem;
+      
+
+        @include mainButton;
+      
+      }
+    }
+  }
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  
 }

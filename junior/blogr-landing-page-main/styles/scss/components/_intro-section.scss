@@ -27,6 +27,10 @@
 
     div {
         margin-top: 3.2rem;
+
+        .start {
+            @include whiteButton;
+        }
         button {
             @include mainButton;
         }

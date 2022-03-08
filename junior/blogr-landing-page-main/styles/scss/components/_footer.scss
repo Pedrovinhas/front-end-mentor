@@ -41,6 +41,10 @@
                     a {
                         text-decoration: none;
                         color: #c8c8cb;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
                     }
                 }
             }
