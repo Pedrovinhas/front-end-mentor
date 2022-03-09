@@ -12,5 +12,7 @@ declare module 'styled-components' {
         }
 
         mobile: string;
+
+      
     }
 }

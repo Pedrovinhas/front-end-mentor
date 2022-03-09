@@ -1,4 +1,4 @@
-
+import { Section } from './styles'
 interface CardItemProps {
     item: {
         id: number;
@@ -7,11 +7,13 @@ interface CardItemProps {
         image: string;
       }
 }
+
+
   
 export function Card(props: CardItemProps) {
     return (
         
-        <div>
+        <Section layout={props.item.id % 2 === 0 && 'row-reverse'}>
             <div>
                 <h2>
                     {props.item.title}
@@ -24,6 +26,6 @@ export function Card(props: CardItemProps) {
             <div>
                 <img src={`./images/${props.item.image}`} alt="" />
             </div>
-        </div>
+        </Section>
     )
 }

@@ -15,7 +15,7 @@ export function HeaderSection() {
       <Cont>
         <Nav>
           <Logo src="/images/logo.svg" alt="" />
-          <Button> Try It Free </Button>
+          <Button bgColor='fff'> Try It Free </Button>
         </Nav>
         <Flex>
           <div>

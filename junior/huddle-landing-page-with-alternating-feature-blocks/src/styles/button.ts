@@ -1,6 +1,10 @@
 import styled from 'styled-components'
 
-export const Button = styled.button`
+interface IButton {
+    bgColor: string;
+} 
+
+export const Button = styled.button<IButton>`
     border-radius: 50px;
     border: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);

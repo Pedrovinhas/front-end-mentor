@@ -1,6 +1,7 @@
 import { Cont } from './components/Container/styles'
 import { HeaderSection } from './components/Header/index'
 import { ThemeProvider } from 'styled-components'
+import { FooterComponent } from './components/Footer'
 import { Card } from './components/Card'
 import themes from "./styles/themes/themes";
 import GlobalStyle from './styles/global';
@@ -23,9 +24,10 @@ const App = () => {
     <HeaderSection/>
     <Cont>
      {content.map((item, index) => (
-       <Card key={index} item={item}/>
+       <Card key={index} item={item} />
      ))}
     </Cont>
+    <FooterComponent/>
     </>
     </ThemeProvider>
   )
