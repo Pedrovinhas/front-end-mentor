@@ -1,0 +1,77 @@
+ body {
+     height: 100vh;
+     font-family: 'Red Hat Text', sans-serif;
+     display: grid;
+     place-items: center;
+
+     margin: 0 auto;
+     background-color: rgba(30, 31, 41, 1);
+     background-image: url('/bg-stars.svg');
+    
+
+     h1 {
+        text-align: center;
+      
+        text-transform: uppercase;
+        color: #ffffff;
+        letter-spacing: 0.34rem;
+        font-size: 1.6rem;
+        
+    }
+
+  
+    
+ 
+ section {
+        width: 50vw;
+        margin: 0 auto;
+     
+        .countdown {
+        
+       
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        place-items: center;
+        column-gap: .8rem;
+       
+
+        margin: 0 auto;
+        
+  
+        height: 30vh;
+        
+        text-align: center;
+
+        .countdown__box {
+            width: 150px;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+        }
+
+        span {
+            font-size: 4.2rem;
+            font-weight: 700;
+            background-color: rgba(52, 54, 80, 1);
+            padding: 1.6rem 2rem 1.6rem 2rem;
+            color: #d74e6e;
+            border-radius: .4rem;
+        
+           
+            
+        }
+
+        p {
+            text-transform: uppercase;
+            margin-top: 1.2rem;
+            font-weight: 700;
+            font-size: 1rem;
+            letter-spacing: .4rem;
+            color: rgba(132, 134, 169, 1);
+        }
+    }
+    }
+}

@@ -1,0 +1,71 @@
+body {
+  height: 100vh;
+  font-family: 'Red Hat Text', sans-serif;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+  background-color: #1e1f29;
+  background-image: url("/bg-stars.svg");
+}
+
+body h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 0.34rem;
+  font-size: 1.6rem;
+}
+
+body section {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+body section .countdown {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  place-items: center;
+  -webkit-column-gap: .8rem;
+          column-gap: .8rem;
+  margin: 0 auto;
+  height: 30vh;
+  text-align: center;
+}
+
+body section .countdown .countdown__box {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body section .countdown span {
+  font-size: 4.2rem;
+  font-weight: 700;
+  background-color: #343650;
+  padding: 1.6rem 2rem 1.6rem 2rem;
+  color: #d74e6e;
+  border-radius: .4rem;
+}
+
+body section .countdown p {
+  text-transform: uppercase;
+  margin-top: 1.2rem;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: .4rem;
+  color: #8486a9;
+}
+/*# sourceMappingURL=main.css.map */
